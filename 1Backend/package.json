@@ -1,0 +1,18 @@
+{
+  "name": "1backend",
+  "version": "1.0.0",
+  "description": "First backend server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Ankit Mittal",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2"
+  }
+}
