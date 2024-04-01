@@ -7,7 +7,6 @@ app.get("/", (req, res) => {
 });
 
 app.get("/jokes", (req, res) => {
-  res.send("Server is ready");
   const jokes = [
     {
       id: 1,
@@ -35,6 +34,7 @@ app.get("/jokes", (req, res) => {
       content: "This is 5 joke",
     },
   ];
+  res.send(jokes);
 });
 
 const port = process.env.PORT || 4000;
