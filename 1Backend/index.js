@@ -5,7 +5,8 @@ const app = express();
 // const PORT = 5000;
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.json({ message: "Hello World !" });
+  // res.send("Hello World!");
 });
 
 app.get("/youtube", (req, res) => {
